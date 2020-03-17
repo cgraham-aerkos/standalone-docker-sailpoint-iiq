@@ -1,5 +1,5 @@
 # docker-compose.yaml
-version: '3.7'
+version: '3.5'
 
 volumes:
   db_volume: # Separate persistent volume for the DB data

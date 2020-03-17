@@ -85,7 +85,7 @@ RUN set -ex; \
 	\
 	apt-get update; \
 	apt-get install -y \
-		openjdk-8-jre-headless \
+		openjdk-11-jre-headless \
 		ca-certificates-java \
 		; \
 	rm -rf /var/lib/apt/lists/*; \
