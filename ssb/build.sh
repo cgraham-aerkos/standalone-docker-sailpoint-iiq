@@ -14,11 +14,11 @@ else
 	exit 1
 fi
 
-if [ -f "../src/identityiq-8.0.zip" ]; then
-    echo "Moving IdentityIQ 8.0 into the ./components/iiq8.0/base/ga directory"
-	cp ../src/identityiq-8.0.zip ./components/iiq8.0/base/ga
+if [ -f "../src/identityiq-8.1.zip" ]; then
+    echo "Moving IdentityIQ 8.1 into the ./components/iiq8.1/base/ga directory"
+	cp ../src/identityiq-8.1.zip ./components/iiq8.1/base/ga
 else 
-	echo "Please place the identityiq-8.0.zip file in the ../src directory of this project"
+	echo "Please place the identityiq-8.1.zip file in the ../src directory of this project"
 	exit 1
 fi
 
